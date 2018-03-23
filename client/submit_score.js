@@ -27,7 +27,8 @@ function getQueryVariable(variable) {
 }
 
 function submitScore(score) {
-    var url = 'https://verokhina.vkpartner.ru/server.php';
+    // var url = 'https://verokhina.vkpartner.ru/server.php';
+    var url = 'https://2c48b2eb.ngrok.io/~Viktoria/server.php';
     var params = {
         'score': score,
         'viewer_id': getQueryVariable('viewer_id'),
