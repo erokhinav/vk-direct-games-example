@@ -56,7 +56,7 @@ let gameModule = (function () {
         snake.unshift({x: snakeX, y: snakeY});
 
         if (snakeX === apple.x && snakeY === apple.y) {
-            alert('score was increased');
+            // alert('score was increased');
             score++;
             renderModule.drawScore();
             generateApple();
